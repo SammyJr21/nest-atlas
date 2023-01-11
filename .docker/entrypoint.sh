@@ -1,5 +1,6 @@
 #!/bin/bash
+
 npm install 
 npm run build
 npx typeorm migration
-npm run start
+npm run start:dev
