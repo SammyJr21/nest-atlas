@@ -5,8 +5,8 @@ module.exports = {
   username: 'postgres',
   password: 'docker',
   database: 'cursonestjs',
-  entites: ['dist/**/*.entity.js'],
-  migrations: ['dist/migrations/*.js'],
+  entities: ['**/src/courses/entities/*.entity.ts'],
+  migrations: ['dist/migrations/*{.ts,.js}'],
   cli: {
     migrationsDir: 'src/migrations',
   },
